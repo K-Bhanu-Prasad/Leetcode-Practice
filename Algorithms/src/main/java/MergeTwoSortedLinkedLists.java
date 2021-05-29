@@ -58,8 +58,8 @@ public class MergeTwoSortedLinkedLists {
         if (l2 == null)
             return l1;
         if (l1.val > l2.val)
-            return mergeTwoLists(l2, l1);
-        l1.next = mergeTwoLists(l1.next, l2);
+            return mergeTwoLists2(l2, l1);
+        l1.next = mergeTwoLists2(l1.next, l2);
         return l1;
     }
 
