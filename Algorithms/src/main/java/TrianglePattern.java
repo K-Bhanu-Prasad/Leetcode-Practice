@@ -1,4 +1,5 @@
 package main.java;
+
 public class TrianglePattern {
 
     /*  input       n = 3
@@ -18,8 +19,10 @@ public class TrianglePattern {
                 } else {
                     System.out.print(k);
                 }
-                if (j >= n) k++;
-                else k--;
+                if (j >= n)
+                    k++;
+                else
+                    k--;
             }
             System.out.println();
         }
